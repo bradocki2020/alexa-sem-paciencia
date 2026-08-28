@@ -1,0 +1,28 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "sem paciência",
+      "intents": [
+        {"name":"SaudacaoIntent","samples":["oi","olá","e aí","fala comigo","tudo bem","como você está","como você tá"]},
+        {"name":"BomDiaIntent","samples":["bom dia","muito bom dia","acordei","já acordei","bom dia para você"]},
+        {"name":"BoaNoiteIntent","samples":["boa noite","vou dormir","hora de dormir","estou indo dormir","dá boa noite"]},
+        {"name":"FomeIntent","samples":["estou com fome","tô com fome","quero comer","o que eu como","preciso comer","fome"]},
+        {"name":"CansacoIntent","samples":["estou cansado","estou cansada","tô cansado","tô cansada","quero descansar","estou com sono","tô com sono"]},
+        {"name":"TedioIntent","samples":["estou entediado","estou entediada","tô entediado","tô entediada","não tenho nada para fazer","estou no tédio","tédio"]},
+        {"name":"ElogioIntent","samples":["você é legal","você é boa","você é inteligente","gosto de você","você é demais","você manda bem","você é ótima"]},
+        {"name":"ProvocacaoIntent","samples":["você é chata","você é burra","você é irritante","você não sabe nada","você é inútil","vai se ferrar","fica quieta","cala a boca"]},
+        {"name":"PiadaIntent","samples":["conta uma piada","me conta uma piada","quero uma piada","me faz rir","fala uma piada","conte uma piada"]},
+        {"name":"AgradecimentoIntent","samples":["obrigado","obrigada","valeu","muito obrigado","muito obrigada","agradecido","agradecida"]},
+        {"name":"ReclamacaoIntent","samples":["deu tudo errado","está tudo ruim","isso está uma droga","estou com problema","tenho um problema","não está funcionando","deu problema"]},
+        {"name":"ModoFamiliaIntent","samples":["modo família","sem palavrão","sem palavrões","tira os palavrões","para de falar palavrão","desliga os palavrões"]},
+        {"name":"ModoSemFiltroIntent","samples":["modo sem filtro","pode falar palavrão","pode falar palavrões","libera os palavrões","liga os palavrões","ativa os palavrões"]},
+        {"name":"AMAZON.HelpIntent","samples":[]},
+        {"name":"AMAZON.CancelIntent","samples":[]},
+        {"name":"AMAZON.StopIntent","samples":[]},
+        {"name":"AMAZON.FallbackIntent","samples":[]}
+      ],
+      "types": [],
+      "modelConfiguration": {"fallbackIntentSensitivity":{"level":"HIGH"}}
+    }
+  }
+}
