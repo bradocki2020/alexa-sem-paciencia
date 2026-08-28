@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "Sem Paciência",
+          "summary": "Uma assistente rabugenta, sarcástica e sem muita paciência.",
+          "description": "Skill de humor em português do Brasil com respostas sarcásticas, rabugentas e alguns palavrões leves opcionais. Inclui modo família para retirar palavrões.",
+          "examplePhrases": [
+            "Alexa, abrir sem paciência",
+            "Alexa, peça para sem paciência contar uma piada",
+            "Alexa, abrir sem paciência e dizer bom dia"
+          ],
+          "keywords": ["humor","sarcástica","rabugenta","piadas","brava","engraçada"]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Use em pt-BR. Abra dizendo 'Alexa, abrir sem paciência'. Teste 'bom dia', 'estou com fome', 'conta uma piada', 'modo família' e 'modo sem filtro'.",
+      "category": "NOVELTY_HUMOR",
+      "distributionCountries": ["BR"]
+    },
+    "apis": {"custom": {}},
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    }
+  }
+}
